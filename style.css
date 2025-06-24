@@ -1,0 +1,590 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background: rgb(18,220,28);
+    background: linear-gradient(90deg, rgba(18,220,28,1) 0%, rgba(20,65,152,0.8423469921590288) 0%, rgba(120,132,37,1) 0%, rgba(96,104,36,1) 0%, rgba(7,229,247,1) 0%, rgba(252,255,255,0.48511904761904767) 100%, rgba(57,57,34,1) 100%);
+}
+.banner-img{
+    width: 100%;
+    text-align: center;
+}
+.text{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+.cbse{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.trust{
+  margin: -10px;
+}
+.facility-text{
+    color:blueviolet;
+    font-weight: 900;
+}
+/* Basic styles for the facility items */
+.facility {
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 10px; /* Optional rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .facility:hover {
+    background-color: #f8f9fa; /* Change background color */
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .facility i {
+    color: #495057; /* Default icon color */
+    transition: color 0.3s ease; /* Smooth transition for icon color */
+  }
+  
+  /* Icon hover effect */
+  .facility:hover i {
+    color: #007bff; /* Change icon color on hover */
+  }
+  
+.box:hover{
+    background-color: #7c0707;
+    cursor: pointer;
+}
+.navv{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    font-size: 20px;
+}
+
+#main-cont{
+    background: rgb(28,28,61);
+    background: linear-gradient(90deg, rgba(28,28,61,1) 0%, rgba(3,3,24,1) 100%, rgba(66,66,69,1) 100%, rgba(109,46,202,1) 100%, rgba(105,101,173,1) 100%);
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  
+
+
+   .glimpse-text{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+   }
+
+
+   
+.container-last{ background: rgb(97,99,105);
+    background: linear-gradient(90deg, rgba(97,99,105,1) 0%, rgba(25,11,44,1) 0%, rgba(66,66,69,1) 100%, rgba(60,60,129,1) 100%, rgba(2,0,36,1) 100%);
+    max-width: 100%;
+}
+.last-section{
+     padding:60px;
+    display: flex;
+    max-width:100%;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+   
+}
+
+.last-div11{
+    
+    max-width:100%;
+    position:relative;
+
+
+}
+.para10{
+    color: yellowgreen;
+    font-size: 20px;
+    text-decoration: underline bisque;
+    font-weight: 900; 
+    
+}
+#loc-icon{
+    font-size: 30px;
+    margin-left: -2%;
+    position: absolute;
+    justify-content: flex-start;
+    color: beige;
+    position: relative;
+}
+.address{
+    margin-left: 45px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#call-icon{
+    font-size: 30px;
+    margin-left: -2%;
+    margin-top: 7px;
+    position: absolute;
+    justify-content: flex-start;
+    color: beige;
+    position: relative;
+}
+.Number{
+    
+    margin-left: 45px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.link1{
+    font-size: 15px;
+    font-weight: 10;
+    color: red;
+    text-decoration: underline; 
+    
+}
+div ul li{
+    color:red
+
+}
+.social-icon{
+    margin:30px 30px 0px;
+    
+}
+.icon{
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(73, 108, 4);
+    cursor: pointer;
+    transition:all 0.5s;
+
+}
+.icon:hover{
+    transform: scale(1);
+    color:rgb(198, 194, 215);
+}
+
+
+
+
+
+.about-text{
+    letter-spacing: 7px;
+    font-size: 60px;
+    text-align:center ;
+    text-shadow: 0px 2px 40px rgb(255, 52, 6);
+    color: #d7f306;
+    font-weight: 900;
+   }
+   .about-text1{
+    margin-top: 1px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0px 2px 20px yellowgreen;
+    letter-spacing: 7px;
+    text-decoration: underline;
+   }
+ 
+   .abouttheschool{
+    max-width: 100%;
+    margin: 3%;
+   }
+   .abouttheschool-heading{
+    color: rgb(19, 4, 5);
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 3%;
+   }
+   .underline{
+    background-color: #165f0e;
+    position:static;
+    
+   }
+   .about-paragra{
+    font-size: large;
+    width: 50%;
+    margin: 3%;
+    color: rgb(0, 8, 3);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+
+   }
+
+   /* .........................footer................... */
+.footer1{
+    padding: 25px;
+    background: rgb(97,99,105);
+    background: linear-gradient(90deg, rgba(97,99,105,1) 0%, rgba(31,14,56,1) 100%, rgba(66,66,69,1) 100%, rgba(60,60,129,1) 100%, rgba(2,0,36,1) 100%);
+}
+.footer-para{
+    align-items: center;
+    margin: 4px;
+    color: rgb(71, 37, 19);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.span-para{
+    color: rgb(137, 224, 15);
+    font-size: 25px;
+}
+@media only screen and (max-width: 1000px) {
+   .footer-para{
+    font-size: 11px;
+   }
+   .span-para{
+    font-size: 12px;
+   }
+  }
+
+
+  /* ---------------GALLERY------------------ */
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gallery-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover .gallery-img {
+    transform: scale(1.1); /* Zoom in effect on hover */
+  }
+
+  .gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-item:hover .overlay {
+    opacity: 1; /* Show dark overlay on hover */
+  }
+
+  .gallery-item .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+  }
+
+  .gallery-item:hover .text {
+    display: block; /* Show text on hover */
+  }
+  .img-fluid{
+    height: 100px;
+    width: 350px;
+    position: relative;
+  }
+
+  @media (max-width: 768px) {
+    .school-logo {
+        max-width: 60%; /* Adjust logo size on small screens */
+    }
+    .text {
+        font-size: 1.5rem; /* Adjust text size for small screens */
+    }
+    .cbse {
+        font-size: 1rem; /* Adjust text size for CBSE info */
+    }
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(5px); /* Slight lift effect */
+  box-shadow: 0 10px 25px rgba(65, 144, 5, 0.819);
+ 
+}
+
+.social-icon:hover {
+  color: #5f5d08; /* Change color on hover */
+  transition: color 0.3s ease;
+}
+
+.link1:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.map iframe {
+  border-radius: 10px;
+}
+
+
+/* footer--------------- */
+.footer1 {
+  background: linear-gradient(135deg, #007bff, #6c757d);
+  color: white;
+}
+
+/* Footer Paragraph Style */
+.footer-para {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.span-para {
+  font-weight: 600;
+}
+
+/* Developer link styles */
+.footer1 a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer1 a:hover {
+  color: #ffc107; /* Yellow color on hover */
+  text-decoration: underline;
+}
+
+/* Developer Name Hover Effect */
+.developer-link {
+  font-weight: bold;
+  color: inherit;
+}
+
+/* Social Icons */
+.social-icon {
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ffc107; /* Change to yellow on hover */
+  transform: scale(1.2); /* Slight zoom effect */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .footer-para {
+    font-size: 12px; /* Smaller font size on mobile */
+  }
+
+  .social-icon {
+    font-size: 1.2rem; /* Smaller icons on mobile */
+  }
+}
+
+/* Larger screen styling */
+@media (min-width: 992px) {
+  .social-icon {
+    font-size: 1.8rem; /* Larger icons on larger screens */
+  }
+}
+
+/* ------------- headertext------------ */
+/* Glowing Effect for SHARDA VIDYA MANDIR */
+.header{
+  background: rgb(18,220,28);
+background: linear-gradient(90deg, rgba(18,220,28,1) 0%, rgba(35,38,43,0.8423469921590288) 0%, rgba(120,132,37,1) 0%, rgba(96,104,36,1) 0%, rgba(55,69,133,1) 0%, rgba(50,65,136,1) 0%, rgba(69,70,75,1) 0%, rgba(13,39,161,1) 100%, rgba(252,255,255,1) 100%, rgba(59,59,45,1) 100%);
+text-align: center;
+padding-top: 20px;
+}
+.glow-text {
+  color: rgb(2, 6, 91);
+  text-transform: uppercase;
+  animation: glow-animation 1.5s ease-in-out infinite alternate;
+  text-shadow: 0 0 5px #012128, 0 0 10px #00d4ff, 0 0 15px #00d4ff, 0 0 20px #00d4ff, 0 0 25px #00d4ff;
+}
+
+/* Keyframes for a smoother glow animation */
+@keyframes glow-animation {
+  0% {
+    text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 30px #00d4ff, 0 0 40px #00d4ff, 0 0 50px #00d4ff;
+  }
+  100% {
+    text-shadow: 0 0 20px #00d4ff, 0 0 30px #00d4ff, 0 0 40px #00d4ff, 0 0 60px #00d4ff, 0 0 70px #00d4ff;
+  }
+}
+
+/* General styling */
+h1 {
+  font-size: 3rem; /* Base font size */
+  white-space: nowrap; /* Prevent line break */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 4rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; 
+  }
+
+  .container-fluid {
+    padding: 3rem 1rem; 
+  }
+
+  .about-text, .about-text1 {
+    font-size: 2rem; 
+  }
+
+  h2 {
+    font-size: 2rem; 
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size:1rem;
+  }
+
+  .about-text {
+    margin: 15px;
+    font-size: 1rem;
+    word-spacing: 1px; 
+  }
+
+  .about-text1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1rem; 
+  }
+}
+
+
+
+.card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Equal Height Card Bodies */
+.card-body {
+  flex: 1; /* Ensures cards take equal height */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Overlay Styling */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Transparent black background */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/* Optional: Add a background color to the School Motto card */
+.col-sm-4:last-child .card-body {
+  background-color: blanchedalmond;
+}
+
+.col-sm-4 {
+  margin-bottom: 30px;
+}
+.h2{
+  color: chartreuse; font-weight: 800; font-size:30px;
+}
+.link1{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.p-pic {
+  height: 115px;
+  width: 115px;
+  border-radius: 50%; /* More symmetrical rounding */
+  box-shadow: 0px 5px 15px rgba(7, 221, 21, 0.6); /* Softer, more subtle shadow */
+  margin-top: -18%;
+  margin-left: 25%;
+  border: 3px solid #07dd15; /* Slight border for better visibility */
+  object-fit: cover; /* Ensure the image doesn't get distorted */
+}
+
+/* Make it responsive */
+@media screen and (max-width: 768px) {
+  .p-pic {
+    height: 90px; /* Smaller size on smaller screens */
+    width: 90px;
+    margin-top: -35%;
+    margin-left: 50%;
+    box-shadow: 0px 4px 10px rgba(7, 221, 21, 0.4); /* Softer shadow on small screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .p-pic {
+    height: 90px; /* Even smaller on mobile */
+    width: 90px;
+    margin-top: -50%;
+    margin-left: 60%;
+    box-shadow: 0px 3px 8px rgba(7, 221, 21, 0.3); /* Lighter shadow */
+  }
+}
+
+
+.notice-container {
+  padding: 2%;
+  text-align: center;
+}
+.notice-text {
+  font-size: 30px;
+}
+.marquee {
+  height: 100px;
+  overflow: hidden;
+  font-size: 20px;
+  color: #3b1202bc;
+  font-weight: 700;
+}
+
+
+.modal-img {
+  max-width: 100%;       
+  max-height: 80vh;      
+  object-fit: contain;   
+  margin: 0 auto;     
+  display: block;      
+} 
+
